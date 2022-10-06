@@ -1,0 +1,41 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+  
+    
+   
+}
+.container{
+    margin-top: 100px;
+    display: flex;
+    max-width:1400px;
+    max-height: 300px;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+   
+}
+.slide{
+    position: relative;
+    height: 160px;
+    width: 60px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.slide-active{
+    position: relative;
+    height: 160px;
+    width: 200px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: black;
+    transition-duration: 600ms;
+    transition-timing-function: ease;
+}
